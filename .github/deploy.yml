@@ -31,6 +31,15 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      - name: Debug themes directory
+        run: |
+          echo "=== ROOT DIR ==="
+          ls -la
+          echo "=== THEMES DIR ==="
+          ls -la themes || echo "themes directory NOT FOUND"
+          echo "=== ANZHIYU DIR ==="
+          ls -la themes/anzhiyu || echo "anzhiyu directory NOT FOUND"
+
       - name: Build Hexo
         run: |
           npx hexo clean
