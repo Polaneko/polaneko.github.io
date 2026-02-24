@@ -8,7 +8,9 @@
   <link href="http://polaneko.github.io/" rel="alternate"/>
   <link href="http://polaneko.github.io/atom.xml" rel="self"/>
   <rights>All rights reserved 2026, Polarization</rights>
-  <subtitle>和光同尘 与时舒卷 清阳曜灵 和风容与</subtitle>
+  <subtitle>
+    <![CDATA[和光同尘 与时舒卷<br>清阳曜灵 和风容与]]>
+  </subtitle>
   <title>Polarization的猫窝</title>
   <updated>2026-02-24T13:22:34.351Z</updated>
   <entry>
